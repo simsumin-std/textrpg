@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\map">
+      <UniqueIdentifier>{057168e4-d731-49e7-a2da-1bd147538dde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\player">
+      <UniqueIdentifier>{163ae914-7dc4-496a-9496-c2ad6bf6b2e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\monster">
+      <UniqueIdentifier>{b93a950e-b6df-441c-9fa5-5c5e2d6b0d11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\skill">
+      <UniqueIdentifier>{1b07bc21-a17a-47be-b909-a6986431e04f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\move">
+      <UniqueIdentifier>{cfc1a920-685e-44b5-b4d9-99fe11801646}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\shop,item">
+      <UniqueIdentifier>{f896daee-cb0f-4220-993b-b4ba497bdd97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\shop,item\sword">
+      <UniqueIdentifier>{7ae1842b-a0b2-4b99-a551-ffa28946923b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\shop,item\armor">
+      <UniqueIdentifier>{ad0153ba-9b69-468e-b7b7-61981a70397f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\shop,item\tool">
+      <UniqueIdentifier>{dcb0b223-24bb-4891-802a-fd28397a6608}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="mainGame.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp">
+      <Filter>소스 파일\map</Filter>
+    </ClCompile>
+    <ClCompile Include="monster.cpp">
+      <Filter>소스 파일\monster</Filter>
+    </ClCompile>
+    <ClCompile Include="orc.cpp">
+      <Filter>소스 파일\monster</Filter>
+    </ClCompile>
+    <ClCompile Include="goblin.cpp">
+      <Filter>소스 파일\monster</Filter>
+    </ClCompile>
+    <ClCompile Include="wolf.cpp">
+      <Filter>소스 파일\monster</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>소스 파일\player</Filter>
+    </ClCompile>
+    <ClCompile Include="skillBase.cpp">
+      <Filter>소스 파일\skill</Filter>
+    </ClCompile>
+    <ClCompile Include="_move.cpp">
+      <Filter>소스 파일\move</Filter>
+    </ClCompile>
+    <ClCompile Include="shop.cpp">
+      <Filter>소스 파일\shop,item</Filter>
+    </ClCompile>
+    <ClCompile Include="item.cpp">
+      <Filter>소스 파일\shop,item</Filter>
+    </ClCompile>
+    <ClCompile Include="iron.cpp">
+      <Filter>소스 파일\shop,item</Filter>
+    </ClCompile>
+    <ClCompile Include="gold.cpp">
+      <Filter>소스 파일\shop,item</Filter>
+    </ClCompile>
+    <ClCompile Include="fireSword.cpp">
+      <Filter>소스 파일\shop,item\sword</Filter>
+    </ClCompile>
+    <ClCompile Include="goldenSword.cpp">
+      <Filter>소스 파일\shop,item\sword</Filter>
+    </ClCompile>
+    <ClCompile Include="magicSword.cpp">
+      <Filter>소스 파일\shop,item\sword</Filter>
+    </ClCompile>
+    <ClCompile Include="normalSword.cpp">
+      <Filter>소스 파일\shop,item\sword</Filter>
+    </ClCompile>
+    <ClCompile Include="goldenArmor.cpp">
+      <Filter>소스 파일\shop,item\armor</Filter>
+    </ClCompile>
+    <ClCompile Include="magicArmor.cpp">
+      <Filter>소스 파일\shop,item\armor</Filter>
+    </ClCompile>
+    <ClCompile Include="normalArmor.cpp">
+      <Filter>소스 파일\shop,item\armor</Filter>
+    </ClCompile>
+    <ClCompile Include="magicpick.cpp">
+      <Filter>소스 파일\shop,item\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="normalhoe.cpp">
+      <Filter>소스 파일\shop,item\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="normalpick.cpp">
+      <Filter>소스 파일\shop,item\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="battleGround.cpp">
+      <Filter>소스 파일\monster</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mainGame.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>소스 파일\map</Filter>
+    </ClInclude>
+    <ClInclude Include="monster.h">
+      <Filter>소스 파일\monster</Filter>
+    </ClInclude>
+    <ClInclude Include="orc.h">
+      <Filter>소스 파일\monster</Filter>
+    </ClInclude>
+    <ClInclude Include="goblin.h">
+      <Filter>소스 파일\monster</Filter>
+    </ClInclude>
+    <ClInclude Include="wolf.h">
+      <Filter>소스 파일\monster</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>소스 파일\player</Filter>
+    </ClInclude>
+    <ClInclude Include="skillBase.h">
+      <Filter>소스 파일\skill</Filter>
+    </ClInclude>
+    <ClInclude Include="_move.h">
+      <Filter>소스 파일\move</Filter>
+    </ClInclude>
+    <ClInclude Include="shop.h">
+      <Filter>소스 파일\shop,item</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>소스 파일\shop,item</Filter>
+    </ClInclude>
+    <ClInclude Include="gold.h">
+      <Filter>소스 파일\shop,item</Filter>
+    </ClInclude>
+    <ClInclude Include="iron.h">
+      <Filter>소스 파일\shop,item</Filter>
+    </ClInclude>
+    <ClInclude Include="fireSword.h">
+      <Filter>소스 파일\shop,item\sword</Filter>
+    </ClInclude>
+    <ClInclude Include="goldenSword.h">
+      <Filter>소스 파일\shop,item\sword</Filter>
+    </ClInclude>
+    <ClInclude Include="magicSword.h">
+      <Filter>소스 파일\shop,item\sword</Filter>
+    </ClInclude>
+    <ClInclude Include="normalSword.h">
+      <Filter>소스 파일\shop,item\sword</Filter>
+    </ClInclude>
+    <ClInclude Include="goldenArmor.h">
+      <Filter>소스 파일\shop,item\armor</Filter>
+    </ClInclude>
+    <ClInclude Include="magicArmor.h">
+      <Filter>소스 파일\shop,item\armor</Filter>
+    </ClInclude>
+    <ClInclude Include="normalArmor.h">
+      <Filter>소스 파일\shop,item\armor</Filter>
+    </ClInclude>
+    <ClInclude Include="magicpick.h">
+      <Filter>소스 파일\shop,item\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="normalhoe.h">
+      <Filter>소스 파일\shop,item\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="normalpick.h">
+      <Filter>소스 파일\shop,item\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="battleGround.h">
+      <Filter>소스 파일\monster</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
